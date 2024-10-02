@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.header{
+  background-color: #044e83;
+  color:white;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+  
+}
+.header-buttons{
+ padding: 15px;
+ justify-content: right;
+ display: flex;
+ gap: 35px;
+ width: 100%;
+ 
+}
+
+.my-image{
+  width: 60px;
+  height: 60px;
+}
+.left{
+  width:20%;
+  padding-left: 30px;
+}
+.middle{
+  width: 10%;
+}
+.right{
+  width:70%;
+}
+
+.footer{
+  background-color: #044e83;
+  color:white;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
